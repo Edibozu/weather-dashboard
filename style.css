@@ -1,0 +1,17 @@
+.cities {
+    margin: 10px;
+}
+
+#search-btn {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#navb {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#nav-text {
+    font-size: 40px;
+}
