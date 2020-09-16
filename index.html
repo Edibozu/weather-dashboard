@@ -39,7 +39,7 @@
         </div>
         <div class="form-group mx-sm-1"></div>
         <label for="inputCity" class="sr-only"></label>
-        <input type="search" class="form-control" id="searchCity" placeholder="">
+        <input type="search" class="form-control" id="search-city" placeholder="">
         </input>
         &nbsp;
         <!-- This button must be clicked for the search to commence. -->
@@ -48,13 +48,13 @@
       <button type="submit" class="btn btn-primary fa fa-trash" id="clear-history"> Clear History</button>
     </form>
     <!-- Previous saved searches will show here. -->
-    <div class="card-body savedSearches" id="savedSearchEl"></div>
+    <div class="card-body savedSearches" id="saved-search"></div>
 </div>
     <!-- This card will display the name of the city along with a few weather stats.
      The information will be created dynamically. -->
     <div class="col-sm-8">
     <div class="card">
-        <h3 class="card-body">
+        <h3 class="card-body" id="city-display">
         </h3>
         <div class="temp"></div>
         <div class="humidity"></div>
