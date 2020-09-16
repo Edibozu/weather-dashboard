@@ -22,15 +22,18 @@
     />
   </head>
   <body>
+    <!-- This is the heaader that shows the title of the page. -->
     <header>
       <nav class="navbar navbar-dark bg-dark d-flex justify-content-center" id="navb">
         <span class="navbar-brand mb-0 h1" id="nav-text">Weather Dashboard</span>
       </nav>
     </header>
+    <!-- This is where the user will search for weather forecast, based on city. -->
     <div class="container">
         <div class="row">
         <div class="col-sm-4">
     <h4 class="cities">Search for a City:</h4>
+    <!-- City name will go in this blank form. -->
     <form class="form-inline">
         <div class="form-group">
         </div>
@@ -39,11 +42,16 @@
         <input type="search" class="form-control" id="searchCity" placeholder="">
         </input>
         &nbsp;
+        <!-- This button must be clicked for the search to commence. -->
       <button type="submit" class="btn btn-primary fa fa-search" id="search-btn"></button>
+      <!-- This button must be clicked for saved searches to be cleared. -->
       <button type="submit" class="btn btn-primary fa fa-trash" id="clear-history"> Clear History</button>
     </form>
+    <!-- Previous saved searches will show here. -->
     <div class="card-body savedSearches" id="savedSearchEl"></div>
 </div>
+    <!-- This card will display the name of the city along with a few weather stats.
+     The information will be created dynamically. -->
     <div class="col-sm-8">
     <div class="card">
         <h3 class="card-body">
@@ -56,6 +64,7 @@
     </div>
     </div>
   </div>
+  <!-- This will display the 5 day weather forecast. Along with a diagram, based the what the weather will be like. also, will be created dynamically. -->
   <div class="container" id="fiveDayForeCast">
     <div class="row justify-content-center" id="bottom-row">
       <div class="col-sm-8" id="5DayResults">
