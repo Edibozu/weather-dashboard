@@ -14,12 +14,6 @@ var windSpeed = $(".widnSpeed");
 var uvIndex = $(".uvIndex");
 
 
-
-
-
-
-
-
 var queryURl = "api.openweathermap.org/data/2.5/forecast?q=" + city + "&units=imperial&appid=" + apiKey
 $.ajax({
     url: queryURL,
