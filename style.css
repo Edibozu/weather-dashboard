@@ -17,11 +17,15 @@
 }
 
 .card {
-    margin-top: 15px;
+    margin-top: 25px;
     margin-right: 70px;
     
 }
 
 #clear-history {
     margin: 7px;
+}
+
+#bottom-row {
+    margin-left: 210px;
 }
