@@ -13,9 +13,17 @@ var humidity = $(".humidity");
 var windSpeed = $(".widnSpeed");
 var uvIndex = $(".uvIndex");
 
-
-var queryURl = "api.openweathermap.org/data/2.5/forecast?q=" + city + "&units=imperial&appid=" + apiKey
+searchBtn.on("click", function(event){
+    event.preventDefault();
+    var city = searchCity.val();
+var queryURL = "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&units=imperial&appid=" + apiKey;
 $.ajax({
     url: queryURL,
     method: "GET",
-  })
+  }).then(function (response) {
+      console.log(response);
+
+
+
+  });
+});
