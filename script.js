@@ -8,6 +8,11 @@ var savedSearch = $("#saved-search");
 var forecastDisplay = $(".forecastDisplay");
 var cityDisplay = $("#city-display");
 var currentDate = moment().format('MMM Do');
+var temp = $(".temp");
+var humidity = $(".humidity");
+var windSpeed = $(".widnSpeed");
+var uvIndex = $(".uvIndex");
+
 
 
 
